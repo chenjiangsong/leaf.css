@@ -22,12 +22,6 @@ blockquote{font-size:1.1em;line-height:1.5em;padding-left:1em; border-left:4px s
 
 a{color:#1863a1}
 
-
-/* pre{-webkit-border-radius:0.4em;-moz-border-radius:0.4em;-ms-border-radius:0.4em;-o-border-radius:0.4em;border-radius:0.4em;border:1px solid #e7dec3;line-height:1.45em;font-size:0.9rem;margin-bottom:2.1em;padding:.8em 1em;color:#586e75;overflow:auto; background-color:#fdf6e3;} */
-
-/* p code,li code{display:inline-block;white-space:no-wrap;background:#fff;font-size:0.9rem;line-height:1.5em;color:#555;border:1px solid #ddd;-webkit-border-radius:0.4em;-moz-border-radius:0.4em;-ms-border-radius:0.4em;-o-border-radius:0.4em;border-radius:0.4em;padding:0 .3em;margin:-1px 4px;} */
-/* p pre code,li pre code{font-size:1em !important;background:none;border:none} */
-
 img{max-width:100%;-webkit-border-radius:0.3em;-moz-border-radius:0.3em;-ms-border-radius:0.3em;-o-border-radius:0.3em;border-radius:0.3em;-webkit-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;-moz-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;box-shadow:rgba(0,0,0,0.15) 0 1px 4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:#fff 0.5em solid}
 
 
@@ -93,33 +87,6 @@ pre{
    -webkit-text-size-adjust: none;
  }
 
- /* .css .hljs-function .hljs-keyword,
- .hljs-constant{
-   color: #0092db;
- }
-
- .hljs-attribute,
- .hljs-keyword,{
-   color: #e96900;
- }
-
- .hljs-number,
- .hljs-literal{
-   color: #ae81ff;
- }
-
- .hljs-tag,
- .hljs-tag .hljs-title,
- .hljs-change,
- .hljs-winutils{
-   color: #2973b7;
- }
-
- .hljs-title{
-  color: #83B917;
- } */
-
-
  .hljs-comment,
  .diff .hljs-header,
  .hljs-doctype,
@@ -128,7 +95,7 @@ pre{
    color: #b3b3b3;
  }
 
- /* Solarized Green */
+ /* Solarized #e96900 */
  .hljs-keyword,
  .hljs-winutils,
  .method,
@@ -140,7 +107,7 @@ pre{
    color: #e96900;
  }
 
- /* Solarized Cyan */
+ /* Solarized #42b983 */
  .hljs-command,
  .hljs-string,
  .hljs-tag .hljs-value,
@@ -153,7 +120,7 @@ pre{
    color: #42b983;
  }
 
- /* Solarized Blue */
+ /* Solarized #2973b7 */
  .hljs-title,
  .hljs-localvars,
  .hljs-chunk,
@@ -166,6 +133,7 @@ pre{
    color: #2973b7;
  }
 
+/* Solarized #ae81ff */
  .hljs-number,
  .smalltalk .hljs-number,
  .vhdl .hljs-literal{
@@ -173,20 +141,7 @@ pre{
  }
 
 
- /* Solarized Yellow */
- /* .hljs-attribute,
- .hljs-variable,
- .lisp .hljs-body,
- .smalltalk .hljs-number,
- .hljs-constant,
- .hljs-class .hljs-title,
- .hljs-parent,
- .hljs-type,
- .hljs-link_reference {
-   color: #b58900;
- } */
-
- /* Solarized Orange */
+ /* Solarized #cb4b16 */
  .hljs-preprocessor,
  .hljs-preprocessor .hljs-keyword,
  .hljs-pragma,
