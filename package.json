@@ -1,0 +1,28 @@
+{
+  "name": "leaf.css",
+  "version": "1.0.0",
+  "description": "style for mweb",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjiangsong/leaf.css.git"
+  },
+  "keywords": [
+    "markdown",
+    "mweb",
+    "vue.js"
+  ],
+  "author": "chenjiangsong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjiangsong/leaf.css/issues"
+  },
+  "homepage": "https://github.com/chenjiangsong/leaf.css#readme"
+}
