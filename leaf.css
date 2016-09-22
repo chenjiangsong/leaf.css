@@ -3,7 +3,8 @@ html,body{
   color:#222
   -webkit-text-size-adjust:none;  min-width: 200px;
   max-width: 760px;
-  margin: 0 auto; padding: 1rem;
+  margin: 0 auto;
+  padding: 1rem;
   line-height: 1.5rem;
 }
 
@@ -20,8 +21,14 @@ blockquote{font-size:1.1em;line-height:1.5em;padding-left:1em; border-left:4px s
     margin-right: 0;
     margin-bottom: 1.5rem; }
 
-a{color:#1863a1}
-
+a{color:#42b983;text-decoration: none}
+mark{
+  color: #42b983;
+  background-color: transparent;
+}
+li{
+  list-style: none;
+}
 img{max-width:100%;-webkit-border-radius:0.3em;-moz-border-radius:0.3em;-ms-border-radius:0.3em;-o-border-radius:0.3em;border-radius:0.3em;-webkit-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;-moz-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;box-shadow:rgba(0,0,0,0.15) 0 1px 4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:#fff 0.5em solid}
 
 
