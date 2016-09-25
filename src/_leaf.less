@@ -1,0 +1,142 @@
+@import './_varible.less';
+
+body{
+  color: #34495e;
+  line-height: 1.6;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  position: relative;
+  margin: 1em 0;
+}
+
+h2:before{
+  content: "#";
+  color: #42b983;
+  position: absolute;
+  left: -0.7em;
+  top: -4px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+code,
+pre {
+  font-size: 0.8rem;
+  background-color: @backGray;
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+ }
+pre{
+  padding: .96rem 1.12rem;
+  line-height: 1.2rem;
+  margin: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
+  border-radius: 2px;
+  color:#525252
+}
+
+
+//行内code
+p code {
+  color: @orange;
+  margin: 0 2px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  white-space: inherit;
+}
+
+.hljs {
+   display: block;
+   overflow-x: auto;
+   background-color: @backGray;
+   -webkit-text-size-adjust: none;
+ }
+
+ .hljs-comment,
+ .diff .hljs-header,
+ .hljs-doctype,
+ .hljs-pi,
+ .lisp .hljs-string {
+   color: #b3b3b3;
+ }
+
+ /* Solarized #e96900 */
+ .hljs-keyword,
+ .hljs-winutils,
+ .method,
+ .hljs-addition,
+ .css .hljs-tag,
+ .hljs-request,
+ .hljs-status,
+ .nginx .hljs-title {
+   color: @orange;
+ }
+
+ /* Solarized green */
+ .hljs-command,
+ .hljs-string,
+ .hljs-tag .hljs-value,
+ .hljs-rule .hljs-value,
+ .hljs-doctag,
+ .tex .hljs-formula,
+ .hljs-regexp,
+ .hljs-hexcolor,
+ .hljs-link_url {
+   color: @green;
+ }
+
+ /* Solarized blue */
+ .hljs-title,
+ .hljs-localvars,
+ .hljs-chunk,
+ .hljs-decorator,
+ .hljs-built_in,
+ .hljs-identifier,
+ .hljs-id,
+ .css .hljs-function,
+ .hljs-name {
+   color: @blue;
+ }
+
+/* Solarized #ae81ff */
+ .hljs-number,
+ .smalltalk .hljs-number,
+ .vhdl .hljs-literal{
+   color: #ae81ff;
+ }
+
+
+ /* Solarized #cb4b16 */
+ .hljs-preprocessor,
+ .hljs-preprocessor .hljs-keyword,
+ .hljs-pragma,
+ .hljs-shebang,
+ .hljs-symbol,
+ .hljs-symbol .hljs-string,
+ .diff .hljs-change,
+ .hljs-special,
+ .hljs-attr_selector,
+ .hljs-subst,
+ .hljs-cdata,
+ .css .hljs-pseudo,
+ .hljs-header {
+   color: #cb4b16;
+ }
+
+ /* Solarized Red */
+ .hljs-deletion,
+ .hljs-important {
+   color: #dc322f;
+ }
+
+ /* Solarized Violet */
+ .hljs-link_label {
+   color: #6c71c4;
+ }
+
+ .tex .hljs-formula {
+   background: #b3b3b3;
+ }
