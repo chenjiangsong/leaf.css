@@ -5,7 +5,7 @@ import less from 'gulp-less'
 import rename from 'gulp-rename'
 import cleanCss from 'gulp-clean-css'
 
-gulp.task('less', () => {
+gulp.task('base', () => {
   return gulp.src('./src/main.less')
              .pipe(less())
              .pipe(cleanCss())
@@ -13,6 +13,14 @@ gulp.task('less', () => {
              .pipe(gulp.dest('./'))
 })
 
-gulp.task('default', ['less'], () => {
-  gulp.watch('./src/*.less', ['less'])
+gulp.task('resume', () => {
+  return gulp.src('./src/resume.less')
+             .pipe(less())
+             .pipe(cleanCss())
+             .pipe(rename('leaf-resume.css'))
+             .pipe(gulp.dest('./'))
+})
+
+gulp.task('default', ['base', 'resume'], () => {
+  gulp.watch('./src/*.less', ['base', 'resume'])
 })
