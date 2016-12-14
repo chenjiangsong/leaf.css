@@ -24,3 +24,5 @@ gulp.task('resume', () => {
 gulp.task('default', ['base', 'resume'], () => {
   gulp.watch('./src/*.less', ['base', 'resume'])
 })
+
+gulp.task('build', ['base', 'resume'])
