@@ -13,6 +13,14 @@ gulp.task('base', () => {
              .pipe(gulp.dest('./'))
 })
 
+gulp.task('vscode', () => {
+  return gulp.src('./src/vscode.less')
+             .pipe(less())
+             .pipe(cleanCss())
+             .pipe(rename('leaf-vscode.css'))
+             .pipe(gulp.dest('./'))
+})
+
 gulp.task('resume', () => {
   return gulp.src('./src/resume.less')
              .pipe(less())
@@ -21,8 +29,8 @@ gulp.task('resume', () => {
              .pipe(gulp.dest('./'))
 })
 
-gulp.task('default', ['base', 'resume'], () => {
-  gulp.watch('./src/*.less', ['base', 'resume'])
+gulp.task('default', ['base', 'resume', 'vscode'], () => {
+  gulp.watch('./src/*.less', ['base', 'resume', 'vscode'])
 })
 
 gulp.task('build', ['base', 'resume'])
