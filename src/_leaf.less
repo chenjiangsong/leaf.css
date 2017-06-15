@@ -19,9 +19,9 @@ body{
 
 
 h1,h2,h3,h4,h5,h6{
-  font-weight: 500;
   position: relative;
-  // margin: 1em 0;
+  font-weight: bold;
+  margin: 0.3em!important;
 }
 
 
@@ -31,6 +31,16 @@ h2:before{
   position: absolute;
   left: -0.7em;
   top: -4px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+h3:before{
+  content: "#";
+  color: @orange;
+  position: absolute;
+  left: -0.7em;
+  top: -2px;
   font-size: 1.2em;
   font-weight: bold;
 }
